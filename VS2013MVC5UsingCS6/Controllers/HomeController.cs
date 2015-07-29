@@ -15,7 +15,7 @@ namespace VS2013MVC5UsingCS6.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = $"Your application description page.";
 
             return View();
         }
